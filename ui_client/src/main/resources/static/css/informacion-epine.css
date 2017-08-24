@@ -1,0 +1,63 @@
+#informacion-epine .epine-component {
+			display: flex;
+			heigth:100%;
+			width:100%;
+			border-radius: 0px;
+			border: 1px solid #e3e3e3;
+			min-height: 0px;
+    		padding: 0px;
+		    margin-bottom: 0px !important;
+		   }
+				 
+#informacion-epine .desplegable {			
+			background-color: white;
+		    border-radius: 0px !important;
+		    padding: 0px !important;
+		    margin: 0px !important;
+		    border: 0px !important;
+		   }
+
+#accordion .desplegable {
+			background-color: white;
+		    border-radius: 0px !important;
+		    padding: 0px !important;
+		    margin: 0px !important;
+		    border: 0px !important;
+		   }
+		   
+#collapse1 .desplegable {			
+			background-color: white;
+		    border-radius: 0px !important;
+		    padding: 0px !important;
+		    margin: 0px !important;
+		    border: 0px !important;
+		   }
+
+#collapse2 .desplegable { 
+			background-color: white;
+		    border-radius: 0px !important;
+		    padding: 0px !important;
+		    margin: 0px !important;
+		    border: 0px !important;
+		   }
+		    		    
+#informacion-epine .boton-tipo-enlace { 
+			border: 0px !important;
+			background: white !important;
+			text-decoration: underline;		
+		   }
+
+#accordion .flecha-enlace {
+			padding-left:5px;
+			background: white !important;
+			border: 0px !important;
+			margin: 0px;
+		   }
+    
+    
+.panel {
+	margin-bottom: 0px !important;
+    background-color: #fff;
+    border: 0px !important;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);

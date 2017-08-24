@@ -1,0 +1,17 @@
+#pie_pagina .contenedor{
+	display: flex; /*para que los elementos que esten dentro de "contenedor" esten en una sola linea*/
+	justify-content: space-around;
+	flex-wrap: wrap; /*para que los elementos que no quepan se situen unos debajo de otros*/
+	width: 100%; /*de esta forma todos los elementos querdaran alineados*/
+	margin: auto;
+	background: #9dd4e3;
+	border: 1px solid;
+}
+
+#pie_pagina article{
+	margin: 5px;
+}
+
+#pie_pagina h4{
+	text-align: right;
+}

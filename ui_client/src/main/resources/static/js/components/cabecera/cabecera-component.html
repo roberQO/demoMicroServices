@@ -1,0 +1,24 @@
+<!-- TODO: cabecera-component.html -->
+<section id="cabecera" ng-controller='cabeceraController as mc'>
+	<div class="contenedor">		
+		<article ng-show="mc.is_principal == false" style="float:left;clear:left;">
+  			<img src="./images/SociedadEspañolaMedicinaPreventiva2.jpg"></img>
+  		</article>
+  		<article>
+  			<img src="./images/EpineLogoIndex.png"></img>
+  			<h4>Estudio de Prevalencia de las Infecciones Nosocomiales en España</h4>
+  		</article>
+  		<article ng-show="mc.is_principal == false">
+  			<img src="./images/ECDC_logo2.gif"></img>
+  		</article>
+  		<article ng-show="mc.is_principal == true" style="display:flex;">
+  			<div>
+	  			<p><h3>Hospital:&nbsp;</h3><h3 style="text-weight:1px;">{{mc.nombre_hospital}}</h3></p>
+	  			<p><h3>&nbsp;&nbsp;{{mc.fecha | date : "MMMM d, y"}}</h3></p>
+	  			<div style="display: block; margin: 15px">
+	  				<p>{{mc.seccion}}</p>
+	  			</div>
+  			</div>
+  		</article>
+  	</div>
+</section>

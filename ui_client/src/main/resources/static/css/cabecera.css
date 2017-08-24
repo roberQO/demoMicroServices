@@ -1,0 +1,29 @@
+#cabecera .contenedor{
+	display: flex; /*para que los elementos que esten dentro de "contenedor" esten en una sola linea*/
+	justify-content: space-between;
+	flex-wrap: wrap; /*para que los elementos que no quepan se situen unos debajo de otros*/
+	width: 100%; /*de esta forma todos los elementos querdaran alineados*/
+	margin: auto;
+	background: #9dd4e3;
+	border: 1px solid;
+}
+
+#cabecera article{
+	margin: 5px;
+	text-align: end;
+}
+
+#cabecera h4{
+	text-align: center;
+	margin-top: 10px;
+}
+
+#cabecera h3{	
+	margin-top: 10px;
+}
+
+#cabecera img{
+	width: 100%;
+	max-width: 280px;
+	display: block;
+}

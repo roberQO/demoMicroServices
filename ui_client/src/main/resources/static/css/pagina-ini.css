@@ -1,0 +1,35 @@
+#pagina-ini .contenedor{
+	display: flex; /*para que los elementos que esten dentro de "contenedor" esten en una sola linea*/
+	justify-content: space-around;
+	flex-wrap: wrap; /*para que los elementos que no quepan se situen unos debajo de otros*/
+	width: 100%; /*de esta forma todos los elementos querdaran alineados*/
+	height: auto;
+	margin: auto;
+	background: #fff;
+	border: 1px solid;
+}
+
+#pagina-ini h4{
+	text-align: center;
+	color: #63c267;
+}
+
+#pagina-ini .lado-izq{
+		width:20%;		
+		padding: 0px;
+		margin: 0px;		
+		}
+		
+#pagina-ini .centro{
+		width:60%;
+		padding: 0px;
+		margin: 0px;
+		border-left: 1px solid;
+		border-right: 1px solid;		
+		}
+		
+#pagina-ini .lado-dcho{
+		width:20%;
+		padding: 0px;
+		margin: 0px;		
+		}

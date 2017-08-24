@@ -1,0 +1,14 @@
+<!-- TODO: pie-pagina-component.html-->
+<section id="pie_pagina" ng-controller="piePaginaController as mc">
+	<div class="contenedor">
+  		<article style="float:left;clear:left;">
+  			<h4>Ayuda: <a href="'mailto:' + {{mc.email}}">{{mc.email}}</a></h4>
+  		</article>
+  		<article ng-show="mc.is_principal == true">
+  			<h4>Versi&oacuten: {{mc.version}}</h4>
+  		</article>
+  		<article ng-show="mc.is_principal == true">
+  			<button style="margin-top:6px;">Desconectar</button>
+  		</article>
+  	</div>  
+</section>

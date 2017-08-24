@@ -1,0 +1,26 @@
+#login .epine-component {
+			heigth:100%;
+			width:100%;
+			border-radius: 0px;
+			border: 1px solid #e3e3e3;
+			min-height: 0px;
+    		padding: 0px;
+		    margin-bottom: 0px !important;
+		   }
+		   
+#login .cuadro-login{
+			justify-content: space-around;
+			display: inline-flex !important;
+			border: 0px;
+			top:0;
+			width:70%;
+			height:80%;
+			padding: 15px;			
+			}
+
+#login .login-panel {
+	margin-bottom: 0px !important;
+    background-color: #fff;
+    border: 1px !important;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
